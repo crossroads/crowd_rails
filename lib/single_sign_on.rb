@@ -183,7 +183,7 @@ class Crowd
     # Logger used for debugging
     def crowd_logger
       unless @crowd_logger
-        @crowd_logger = Logger.new(STDOUT).
+        @crowd_logger = Logger.new(STDOUT)
         @crowd_logger.level = Logger::WARN
       end
       @crowd_logger
