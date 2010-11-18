@@ -1,3 +1,5 @@
+require 'logger'
+
 class Crowd
   
   # The single sign on (SSO) functionality for Atlassian Crowd as a mixin module. 
@@ -152,7 +154,7 @@ class Crowd
         
     def crowd_update_token(token)
       session[Crowd.crowd_session_tokenkey] = token
-      cookies[Crowd.crowd_cookie_tokenkey] = { :value	=> token, :domain => crowd_cookie_domain, :path => "/", :secure => Crowd.get_cookie_info.secure }
+      cookies[Crowd.crowd_cookie_tokenkey] = { :value => token, :domain => crowd_cookie_domain, :path => "/", :secure => Crowd.get_cookie_info.secure }
     end
     
     def crowd_clear_cache
