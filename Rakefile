@@ -10,7 +10,6 @@ begin
     gem.email = "enquiries @nospam@ globalhand.org"
     gem.homepage = "http://github.com/crossroads/crowd_rails"
     gem.authors = ["Stefan Wille", "Stephen Kenworthy"]
-    gem.add_dependency "crowd-crossroads", "> 0.5.11"
     # Silence a warning about missing rubyforge_project
     gem.rubyforge_project = "nowarning"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
