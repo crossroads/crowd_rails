@@ -8,7 +8,7 @@ Forked from stefanwille/crowd_rails and adapted by Crossroads in order to:
 
 == INSTALL:
 
-  gem 'soap4r', :git => 'git://github.com/xaviershay/soap4r.git'
+  gem 'soap4r-spox', :git => 'git://github.com/spox/soap4r-spox.git'
   gem "crowd-crossroads", :git => 'git://github.com/crossroads/crowd.git'
   gem "crowd_rails", :git => 'git://github.com/crossroads/crowd_rails.git'
 
