@@ -7,10 +7,10 @@ begin
     gem.name = "crowd_rails"
     gem.summary = %Q{Single Sign On for Atlassian Crowd 2.0 with Ruby on Rails}
     gem.description = %Q{Single Sign On for Atlassian Crowd 2.0 with Ruby on Rails}
-    gem.email = "post @nospam@ stefanwille.com"
-    gem.homepage = "http://github.com/stefanwille/crowd_rails"
-    gem.authors = ["Stefan Wille"]
-    gem.add_dependency "crowd-stefanwille", "= 0.5.11"
+    gem.email = "enquiries @nospam@ globalhand.org"
+    gem.homepage = "http://github.com/crossroads/crowd_rails"
+    gem.authors = ["Stefan Wille", "Stephen Kenworthy"]
+    gem.add_dependency "crowd-crossroads", "> 0.5.11"
     # Silence a warning about missing rubyforge_project
     gem.rubyforge_project = "nowarning"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings

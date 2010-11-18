@@ -2,14 +2,19 @@
 
 Single sign on (SSO) with Atlassian Crowd 2.0 for Ruby on Rails.
 
+Forked from stefanwille/crowd_rails and adapted by Crossroads in order to:
+ * run crowd-crossroads
+ * soap4r ruby 1.9.2 fork
 
 == INSTALL:
 
-  sudo gem install crowd_rails
+  gem 'soap4r', :git => 'git://github.com/xaviershay/soap4r.git'
+  gem "crowd-crossroads", :git => 'git://github.com/crossroads/crowd.git'
+  gem "crowd_rails", :git => 'git://github.com/crossroads/crowd_rails.git'
 
 == REQUIREMENTS:
 
-* gem crowd-stefanwille
+* gem crowd-crossroads v0.5.12 (or later)
 * soap4r[http://dev.ctor.org/soap4r] v1.5.8
 * Atlassian Crowd v2.0
 * Ruby v1.8.6 (or later)
