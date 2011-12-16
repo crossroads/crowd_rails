@@ -48,6 +48,7 @@ class Crowd
     def crowd_authenticate(user_name, password)      
       crowd_authenticate!(user_name, password)
     rescue Crowd::AuthenticationException => e
+      crowd_logger.warn(e.message)
       false
     end
 
